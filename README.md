@@ -5,11 +5,11 @@ Project Exercise untuk Bootcamp DBS Foundation. Project ini bertujuan untuk meng
 ## Definisi Image Identifikasi
 Image identifikasi adalah proses pengenalan objek, karakter, atau pola dalam gambar menggunakan teknologi komputer, sering kali melibatkan algoritma pembelajaran mesin. Ini memungkinkan sistem untuk menganalisis dan memahami konten visual, seperti mengenali wajah, kendaraan, atau produk, untuk aplikasi seperti keamanan, otomasi, dan pencarian gambar.
 
-## Metode Image Identifikasi
-Dalam project ini, image identifikasi dilakukan dengan membangun model sequential. 
-### Definisi Model Sequential
+# Metode Image Identifikasi
+Dalam project ini, image identifikasi dilakukan dengan membangun model sequenti, linear_model, dan tensorflow. 
+## Definisi Model Sequential
 Model Sequential adalah arsitektur dalam deep learning yang mengatur lapisan-lapisan neuron secara berurutan, dimana output dari satu lapisan menjadi input bagi lapisan berikutnya. Model ini sering digunakan dalam tugas pemodelan yang memerlukan urutan data, seperti dalam pengenalan citra dan pemrosesan bahasa alami.
-#### Peran Model Sequential dalam Image Identifikasi
+## Peran Model Sequential dalam Image Identifikasi
 - Model Sequential dalam image identifikasi berfungsi sebagai arsitektur dasar untuk merancang jaringan saraf dalam mengklasifikasikan gambar.
 - Dalam model ini, lapisan-lapisan neural disusun secara linier, di mana setiap lapisan terhubung langsung ke lapisan berikutnya.
 - Pada umumnya, lapisan convolutional digunakan untuk mengekstrak fitur dari gambar, diikuti oleh lapisan pooling untuk mengurangi dimensi, dan akhirnya lapisan fully connected untuk membuat keputusan klasifikasi.
